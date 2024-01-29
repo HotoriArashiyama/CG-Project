@@ -133,10 +133,12 @@
     <ClInclude Include="Layout.h" />
     <ClInclude Include="LoadTexture.h" />
     <ClInclude Include="Render.h" />
+    <ClInclude Include="ScreenShot.h" />
     <ClInclude Include="Shader.h" />
     <ClInclude Include="txts.h" />
     <ClInclude Include="utils.h" />
     <ClInclude Include="vendor\stb_image\stb_image.h" />
+    <ClInclude Include="vendor\stb_image\stb_image_write.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />

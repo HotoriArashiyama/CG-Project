@@ -12,6 +12,7 @@
 #include <gl/glut.h>
 
 #include "Layout.h"
+#include "ScreenShot.h"
 
 #define BUFSIZE 512
 
@@ -52,7 +53,7 @@ void MouseCtrl::MouseClickProc(int button, int state, int x, int y) {
 		if (button == GLUT_DOWN) {
 			if (Control_h::GLOBAL_CONTROL_STATUS == Control_h::PLACING) {
 				Control_h::GLOBAL_CONTROL_STATUS = Control_h::WANDERING;
-				printf("Obj put back\n");
+				printf("Obj put back.\n");
 				return;
 			}
 			// Reference: Lab6
@@ -110,7 +111,7 @@ void MouseCtrl::MouseClickProc(int button, int state, int x, int y) {
 // Reference: Lab6
 void MouseCtrl::ProcessHit(GLint hits, GLuint buffer[]) {
 	unsigned int i, j;
-	GLuint names, * ptr, minZ, * ptrNames, numberOfNames;
+	GLuint names, * ptr, minZ, * ptrNames, numberOfNames = 0;
 	ptrNames = NULL;
 	//printf("hits = %d\n", hits);
 	ptr = (GLuint*)buffer;
@@ -242,11 +243,17 @@ void KeyboardCtrl::KeyInProc(unsigned char key, int x, int y) {
 	switch (key)
 	{
 	//case 27: {exit(0); break; }
+	case 'P': {
+		ScreenShotCapturer::getScreenShot();
+		break;
+	}
 	case 'b': {	/*Backpack Mode*/
 		/*interfaces for GUI*/
+		break;
 	}
 	case 'r': {	/*Settings*/
 		/*interfaces for GUI*/
+		break;
 	}
 	default: break;
 	}
