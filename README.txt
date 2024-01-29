@@ -1,5 +1,5 @@
 This is the ZRT's part of the final project.
-API used: freeglut+glew
+API used: freeglut+glew, assimp
 How to control:
   Move by keyboard: wasd for wandering, and space/z for up down.
   Eyesight follows Mouse.
