@@ -12,3 +12,4 @@ Implemented in this branch:
   Control.h
   Shader.h: a tool for generating shaders.
   Layout.h: including skybox, terrain, providing interface for Control to operate the object by mouse click, providing interface for .obj loading(not impletemented completely, since there's still bugs). 
+  LoadTexture.h: tools for loading textures from files.
