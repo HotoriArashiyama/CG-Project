@@ -48,9 +48,6 @@
     <ClCompile Include="imgui\imgui_impl_glfw.cpp">
       <Filter>资源文件\源文件\imgui</Filter>
     </ClCompile>
-    <ClCompile Include="imgui\imgui_impl_glut.cpp">
-      <Filter>资源文件\源文件\imgui</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="imgui\imconfig.h">
@@ -75,9 +72,6 @@
       <Filter>头文件\imgui</Filter>
     </ClInclude>
     <ClInclude Include="imgui\imgui_impl_opengl2.h">
-      <Filter>头文件\imgui</Filter>
-    </ClInclude>
-    <ClInclude Include="imgui\imgui_impl_glut.h">
       <Filter>头文件\imgui</Filter>
     </ClInclude>
     <ClInclude Include="pick.h">
