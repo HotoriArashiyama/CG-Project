@@ -67,7 +67,6 @@ void mousepress(GLFWwindow* window, int button, int action, int mods)
         {
             num[addflag]++;
             initx[addflag][num[addflag] - 1] = p1[0] - p1[1] / (p2[1] - p1[1]) * (p2[0] - p1[0]), inity[addflag][num[addflag] - 1] = p1[2] - p1[1] / (p2[1] - p1[1]) * (p2[2] - p1[2]);
-            printf("%lf %lf %lf\n", p1[0], p1[1],p1[2]);
             addflag = -1;
         }
 
@@ -120,7 +119,6 @@ void mousepress(GLFWwindow* window, int button, int action, int mods)
     case GLFW_MOUSE_BUTTON_RIGHT: rightmouse = 1;
         break;
     }
-    printf(" % d", mousepressed);
 }
 
 
