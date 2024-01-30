@@ -1,7 +1,7 @@
 ﻿
 #include "imgui\imgui_impl_glfw.h"
 #include "imgui\imgui_impl_opengl2.h"
-#include "gl/glut.h"
+#include "gl/freeglut.h"
 #include <GLFW/glfw3.h>
 #include <math.h>
 #include <stdio.h>
@@ -11,8 +11,9 @@
 #include "camera.h"
 GLfloat white[] = { 1,1,1, 1.f };
 GLuint selectBuf[BUFSIZE];
-int main()
+int main(int argc, char* argv[])
 {
+    glutInit(&argc, argv);
     GLFWwindow* window;
 
     /* Initialize the library */
@@ -63,6 +64,7 @@ int main()
 
         glPushMatrix(); // 设置一个新的坐标系
         glMaterialfv(GL_FRONT, GL_AMBIENT_AND_DIFFUSE, white);
+
         glScalef(100, 0.1, 100);
         glTranslatef(0, -2, 0);
         glutSolidCube(0.1);

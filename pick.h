@@ -60,7 +60,7 @@ void processHits(GLint hits, GLuint buffer[])
 
 void mousepress(GLFWwindow* window, int button, int action, int mods)
 {
-    if (!ongui)
+    if (!ongui&& mousepressed )
     {
         cgui = "GUI";
         if (addflag != -1&&(duh*poz[1]<0))
@@ -120,7 +120,7 @@ void mousepress(GLFWwindow* window, int button, int action, int mods)
     case GLFW_MOUSE_BUTTON_RIGHT: rightmouse = 1;
         break;
     }
-
+    printf(" % d", mousepressed);
 }
 
 
