@@ -8,7 +8,12 @@
 #include <math.h>
 #pragma comment(lib, "glew32.lib")
 #include <gl/glew.h>
-#include <gl/glut.h>
+#include <gl/freeglut.h>
+
+#include <glm/glm.hpp>
+#include <glm/gtc/matrix_transform.hpp>
+#include <glm/gtc/type_ptr.hpp>
+
 #include "Layout.h"
 
 #define PI 3.1415926535
@@ -30,7 +35,7 @@ public:
 	Camera(float x, float y, float z);
 	void SetAsMainCam();
 	void ProcessInput(unsigned char key);
-	void UpdateLook();
+	void glutUpdateLook();
 	static void SightMouseFollow(int x, int y);
 	void SetSkyBoxFollow(SkyBox* skb, int x, int y, int z);
 	void SetTerrainFollow(Terrain* trn, int x, int y, int z, bool fixedTr = false);
@@ -39,6 +44,7 @@ public:
 	float getZ() const { return Position[2]; }
 	float getPos(char p) const { p = (p | 0x20) - 'x'; return Position[max(0, min(p, 2))]; }
 	float getCntr(char p);
+	glm::mat4 glmGetViewMatrix();
 };
 
 namespace Camera_h {
@@ -102,7 +108,17 @@ void Camera::ProcessInput(unsigned char key) {
 		break;
 	}
 	case 'p': {
+		//printf("%f\n", Yaw);
+		//printf("from %f, %f, %f to %f, %f, %f\n", Position[0], Position[1], Position[2], R * cos(PI / 180.0 * Yaw) + Position[0], H + Position[1], -R * sin(PI / 180.0 * Yaw) + Position[2]);
+		glm::vec3 front;
+		float radPitch = atan(H / R);
+		front.x = cos(glm::radians(Yaw));
+		front.y = sin(radPitch);
+		front.z = sin(glm::radians(Yaw));
+		front = glm::normalize(front);
 		printf("%f\n", Yaw);
+		printf("at %f, %f, %f head %f, %f, %f\n", Position[0], Position[1], Position[2], front[0], front[1], front[2]);
+		break;
 	}
 	default: break;
 	}
@@ -112,8 +128,22 @@ void Camera::ProcessInput(unsigned char key) {
 		Camera_h::ptrTerrain->SetX(Position[0] + relPosTerrain[0]), Camera_h::ptrTerrain->SetZ(Position[2] + relPosTerrain[2]);
 }
 
-void Camera::UpdateLook() {
+void Camera::glutUpdateLook() {
 	gluLookAt(Position[0], Position[1], Position[2], R * cos(PI / 180.0 * Yaw) + Position[0], H + Position[1], -R * sin(PI / 180.0 * Yaw) + Position[2], 0.0, 1.0, 0.0);	//从视点看远点
+}
+
+glm::mat4 Camera::glmGetViewMatrix() {
+	glm::vec3 pos = glm::vec3(Position[0], Position[1], Position[2]);
+	glm::vec3 cntr = glm::normalize(glm::vec3(R * cos(PI / 180.0 * Yaw), H, -R * sin(PI / 180.0 * Yaw)));
+	glm::vec3 front;
+	float radPitch = atan(H / R);
+	front.x = cos(glm::radians(Yaw)) * cos(radPitch);
+	front.y = sin(radPitch);
+	front.z = -sin(glm::radians(Yaw)) * cos(radPitch);
+	front = glm::normalize(front);
+	glm::vec3 right = glm::normalize(glm::cross(front, glm::vec3(0.0, 1.0, 0.0)));  // normalize the vectors, because their length gets closer to 0 the more you look up or down which results in slower movement.
+	glm::vec3 up = glm::normalize(glm::cross(right, front));
+	return glm::lookAt(pos, pos + front, up);
 }
 
 float Camera::getCntr(char p) {

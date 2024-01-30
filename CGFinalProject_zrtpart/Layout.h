@@ -464,6 +464,10 @@ public:
 	std::vector<Mesh>& getMeshes() { return Meshes; }
 	std::vector<HdlTexture>& getTxtr() { return TextureLoaded; }
 	std::string& getDir() { return Dir; }
+
+	// not used
+	virtual void setVtx(GLuint* v) {};
+	virtual void setInd(GLuint* d) {};
 };
 
 Model::Model() {
@@ -660,7 +664,7 @@ std::vector<Layout::HdlTexture> ObjHandler::loadMaterialTextures(aiMaterial* mat
 unsigned int ObjHandler::TextureFromFile(const char* path, const std::string& dir) {
 	unsigned int TexHdl;
 	glGenTextures(1, &TexHdl);
-	TexLoad(std::string(dir + '/' + std::string(path)).c_str(), &TexHdl, GL_REPEAT, GL_LINEAR_MIPMAP_LINEAR, GL_LINEAR);
+	TexLoad(std::string(dir + '/' + std::string(path)).c_str(), &TexHdl, GL_REPEAT, GL_LINEAR_MIPMAP_LINEAR, GL_LINEAR, true);
 	return TexHdl;
 }
 

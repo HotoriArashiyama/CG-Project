@@ -101,11 +101,12 @@ static void TexLoadBmp(int i, const char* filename, unsigned int *Texs = NULL)
 		bitmapData);	//bitmapÊý¾ÝÖ¸Õë  
 }
 
-static void TexLoad(const char* filename, unsigned int* TexHdl = NULL, GLint wrap = GL_CLAMP_TO_EDGE, GLint MinFil = GL_LINEAR, GLint MagFil = GL_LINEAR)
+static void TexLoad(const char* filename, unsigned int* TexHdl = NULL, GLint wrap = GL_CLAMP_TO_EDGE, GLint MinFil = GL_LINEAR, GLint MagFil = GL_LINEAR, bool flip = false)
 {
 	assert(TexHdl != NULL);
 
 	int w, h, c;
+	if (flip) stbi_set_flip_vertically_on_load(flip);
 	unsigned char* data = stbi_load(filename, &w, &h, &c, 0);
 	assert(data != NULL);
 

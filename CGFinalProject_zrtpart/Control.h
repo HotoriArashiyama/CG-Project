@@ -15,13 +15,15 @@
 #include "ScreenShot.h"
 
 #define BUFSIZE 512
+#define max(a, b) ((a) > (b)? (a): (b))
+#define min(a, b) ((a) > (b)? (b): (a))
 
 namespace Control_h {
 	enum SystemStatus { WANDERING = 0, PLACING, INTERACTING, BACKPACK };
 	static Camera* ptrMouseCamera;
 	static OperableLayout* ptrCtrlObj = NULL;
 	static Camera* ptrKeyCamera = NULL;
-	static GLfloat GlobalZoomRate = 1;
+	static GLfloat GlobalZoomRate = 75.0;// GlobalZoomRate now is fovy
 	static int GLOBAL_CONTROL_STATUS = WANDERING;
 	GLuint selectBuf[BUFSIZE]; // 设置一个选择缓冲区
 }
@@ -45,6 +47,8 @@ MouseCtrl::MouseCtrl(Camera *cam) {
 }
 
 extern void renderScene(void);
+extern void reshape(int, int);
+extern int SCRN_W, SCRN_H;
 
 void MouseCtrl::MouseClickProc(int button, int state, int x, int y) {
 	// function interface with game objects
@@ -154,7 +158,9 @@ void MouseCtrl::MouseDragProc(int x, int y) {
 
 void MouseCtrl::MouseScrollProc(int button, int dir, int x, int y) {
 	if (Control_h::GLOBAL_CONTROL_STATUS == Control_h::WANDERING) {
-		Control_h::GlobalZoomRate *= dir > 0 ? 1.1 : (1 / 1.1);
+		//Control_h::GlobalZoomRate *= dir > 0 ? 1.1 : (1 / 1.1);//GlobalZoomRate now is fovy
+		Control_h::GlobalZoomRate += dir > 0 ? (-1) : (1);
+		reshape(SCRN_W, SCRN_H);
 		glutPostRedisplay();
 	}
 }
@@ -260,4 +266,6 @@ void KeyboardCtrl::KeyInProc(unsigned char key, int x, int y) {
 }
 
 #undef BUFSIZE
+#undef max
+#undef min
 #endif
