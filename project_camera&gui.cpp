@@ -9,6 +9,7 @@
 #include "pick.h"
 #include "gui.h"
 #include "camera.h"
+GLfloat white[] = { 1,1,1, 1.f };
 GLuint selectBuf[BUFSIZE];
 int main()
 {
@@ -28,7 +29,6 @@ int main()
 
     /* Make the window's context current */
     glfwMakeContextCurrent(window);
-
     createList();
     glfwSetCursorPosCallback(window, onMouseMove);
     glfwSetKeyCallback(window, key);
@@ -59,7 +59,13 @@ int main()
 
         glMatrixMode(GL_MODELVIEW);
         glLoadIdentity();
-        camera();
+        camera(); 
+
+        glPushMatrix(); // 设置一个新的坐标系
+        glMaterialfv(GL_FRONT, GL_AMBIENT_AND_DIFFUSE, white);
+        glScalef(100, 0.1, 100);
+        glutSolidCube(0.1);
+        glPopMatrix(); // 回到前一个坐标系
 
         glEnable(GL_DEPTH_TEST);
         glEnable(GL_LIGHTING);

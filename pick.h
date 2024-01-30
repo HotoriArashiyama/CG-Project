@@ -8,7 +8,7 @@ extern bool ongui = 1;
 extern GLuint selectBuf[BUFSIZE]; // 设置一个选择缓冲区
 extern double currentX = 0, currentY = 0;
 extern float eye[] = { 0, 0, 0 };
-extern float poz[] = { 0, 0, 0 };
+extern float poz[] = { 0, 2, 0 };
 extern double du = 90, OriX = -1, OriY = -1, duh = 0;
 extern float r = 1.5;
 extern float c = 3.1415926535 / 180.0;
