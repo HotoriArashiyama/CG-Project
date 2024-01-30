@@ -2,7 +2,7 @@
 #include "imgui\imgui_impl_glfw.h"
 #include "imgui\imgui_impl_opengl2.h"
 #include "gl/glut.h"
-#include <glfw3.h>
+#include <GLFW/glfw3.h>
 #include <math.h>
 #include <stdio.h>
 #include "draw.h"
@@ -59,11 +59,12 @@ int main()
 
         glMatrixMode(GL_MODELVIEW);
         glLoadIdentity();
-        camera(); 
+        camera();
 
         glPushMatrix(); // 设置一个新的坐标系
         glMaterialfv(GL_FRONT, GL_AMBIENT_AND_DIFFUSE, white);
         glScalef(100, 0.1, 100);
+        glTranslatef(0, -2, 0);
         glutSolidCube(0.1);
         glPopMatrix(); // 回到前一个坐标系
 
@@ -85,8 +86,8 @@ int main()
         /* Swap front and back buffers */
         glfwSwapBuffers(window);
     }
-   
-     // Cleanup
+
+    // Cleanup
     ImGui_ImplOpenGL2_Shutdown();
     ImGui_ImplGlfw_Shutdown();
     ImGui::DestroyContext();
