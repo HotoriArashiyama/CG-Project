@@ -2,7 +2,7 @@
 #include "imgui\imgui_impl_glfw.h"
 #include "imgui\imgui_impl_opengl2.h"
 #include "gl/glut.h"
-#include <GLFW/glfw3.h>
+#include <glfw3.h>
 #include <math.h>
 #include <stdio.h>
 #include "draw.h"
