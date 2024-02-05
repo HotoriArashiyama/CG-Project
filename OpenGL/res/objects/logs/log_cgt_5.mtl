@@ -1,0 +1,28 @@
+# Blender MTL File: 'log_cgt_5.blend'
+# Material Count: 2
+
+newmtl log_ends
+Ns 5.501163
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd TreeEnd002_2K_Color.png
+map_Ks 2Kspecular.jpg
+map_Ns 2k_bark_roughness_c.png
+
+newmtl logcolor
+Ns 5.248271
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd 2Kcolor.jpg
+map_Ks 2Kspecular.jpg
+map_Ns 2k_bark_roughness_c.png

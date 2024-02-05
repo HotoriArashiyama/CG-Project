@@ -1,0 +1,11 @@
+newmtl CampfireSG
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 100.00
+map_Kd Campfire_MAT_BaseColor_01.jpg
+map_Bump Campfire_MAT_Normal_DX.jpg
+map_Ks Campfire_MAT_Metallic.jpg
