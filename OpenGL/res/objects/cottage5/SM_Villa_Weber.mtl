@@ -1,0 +1,53 @@
+# 3ds Max Wavefront OBJ Exporter v0.99 - (c)2007 guruware
+# File Created: 14.01.2022 23:49:23
+
+newmtl walls
+	Kd 0.7897 0.0568 0.1113
+	Ks 1.0000 1.0000 1.0000
+	Tr 0.0000
+	d 1.0000
+	Tf 1.0000 1.0000 1.0000
+	Pr 0.0000
+	Pm 0.0000
+	Pc 0.0000
+	Pcr 0.0000
+	Ni 1.5200
+	Ke 0.0000 0.0000 0.0000
+	illum 2
+	map_Kd walls_BC.tga
+	map_Ks walls_BC.tga
+	map_Bump walls_N.tga
+
+newmtl Construction
+	Kd 0.1270 0.1886 0.7282
+	Ks 1.0000 1.0000 1.0000
+	Tr 0.0000
+	d 1.0000
+	Tf 1.0000 1.0000 1.0000
+	Pr 0.6500
+	Pm 0.0000
+	Pc 0.0000
+	Pcr 0.0000
+	Ni 1.5200
+	Ke 0.0000 0.0000 0.0000
+	illum 2
+	map_Kd Construction_BC.tga
+	map_Ks Construction_BC.tga
+	map_Bump Construction_N.tga
+
+newmtl roof
+	Kd 0.1872 0.5000 0.2257
+	Ks 1.0000 1.0000 1.0000
+	Tr 0.0000
+	d 1.0000
+	Tf 1.0000 1.0000 1.0000
+	Pr 0.0000
+	Pm 0.0000
+	Pc 0.0000
+	Pcr 0.0000
+	Ni 1.5200
+	Ke 0.0000 0.0000 0.0000
+	illum 2
+	map_Kd roof_BC.tga
+	map_Ks roof_BC.tga
+	map_Bump roof_N.tga

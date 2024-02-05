@@ -1,0 +1,540 @@
+newmtl ID4
+Ns 100.000
+d 1.00000
+illum 2
+Kd 1.00000 1.00000 1.00000
+Ka 0.00000 0.00000 0.00000
+Ks 1.00000 1.00000 1.00000
+Ke 0.00000e+0 0.00000e+0 0.00000e+0
+map_Kd Snow Covered Mountain Range in Northern Montana_ID4_diffuse.tga
+map_Ks Snow Covered Mountain Range in Northern Montana_ID4_gloss.tga
+bump Snow Covered Mountain Range in Northern Montana_ID4_bump.tga
+map_bump Snow Covered Mountain Range in Northern Montana_ID4_normal.tga
+newmtl ID17
+Ns 100.000
+d 1.00000
+illum 2
+Kd 1.00000 1.00000 1.00000
+Ka 0.00000 0.00000 0.00000
+Ks 1.00000 1.00000 1.00000
+Ke 0.00000e+0 0.00000e+0 0.00000e+0
+map_Kd Snow Covered Mountain Range in Northern Montana_ID17_diffuse.tga
+map_Ks Snow Covered Mountain Range in Northern Montana_ID17_gloss.tga
+bump Snow Covered Mountain Range in Northern Montana_ID17_bump.tga
+map_bump Snow Covered Mountain Range in Northern Montana_ID17_normal.tga
+newmtl ID30
+Ns 100.000
+d 1.00000
+illum 2
+Kd 1.00000 1.00000 1.00000
+Ka 0.00000 0.00000 0.00000
+Ks 1.00000 1.00000 1.00000
+Ke 0.00000e+0 0.00000e+0 0.00000e+0
+map_Kd Snow Covered Mountain Range in Northern Montana_ID30_diffuse.tga
+map_Ks Snow Covered Mountain Range in Northern Montana_ID30_gloss.tga
+bump Snow Covered Mountain Range in Northern Montana_ID30_bump.tga
+map_bump Snow Covered Mountain Range in Northern Montana_ID30_normal.tga
+newmtl ID43
+Ns 100.000
+d 1.00000
+illum 2
+Kd 1.00000 1.00000 1.00000
+Ka 0.00000 0.00000 0.00000
+Ks 1.00000 1.00000 1.00000
+Ke 0.00000e+0 0.00000e+0 0.00000e+0
+map_Kd Snow Covered Mountain Range in Northern Montana_ID43_diffuse.tga
+map_Ks Snow Covered Mountain Range in Northern Montana_ID43_gloss.tga
+bump Snow Covered Mountain Range in Northern Montana_ID43_bump.tga
+map_bump Snow Covered Mountain Range in Northern Montana_ID43_normal.tga
+newmtl ID56
+Ns 100.000
+d 1.00000
+illum 2
+Kd 1.00000 1.00000 1.00000
+Ka 0.00000 0.00000 0.00000
+Ks 1.00000 1.00000 1.00000
+Ke 0.00000e+0 0.00000e+0 0.00000e+0
+map_Kd Snow Covered Mountain Range in Northern Montana_ID56_diffuse.tga
+map_Ks Snow Covered Mountain Range in Northern Montana_ID56_gloss.tga
+bump Snow Covered Mountain Range in Northern Montana_ID56_bump.tga
+map_bump Snow Covered Mountain Range in Northern Montana_ID56_normal.tga
+newmtl ID605
+Ns 100.000
+d 1.00000
+illum 2
+Kd 1.00000 1.00000 1.00000
+Ka 0.00000 0.00000 0.00000
+Ks 1.00000 1.00000 1.00000
+Ke 0.00000e+0 0.00000e+0 0.00000e+0
+map_Kd Snow Covered Mountain Range in Northern Montana_ID605_diffuse.tga
+map_Ks Snow Covered Mountain Range in Northern Montana_ID605_gloss.tga
+bump Snow Covered Mountain Range in Northern Montana_ID605_bump.tga
+map_bump Snow Covered Mountain Range in Northern Montana_ID605_normal.tga
+newmtl ID642
+Ns 100.000
+d 1.00000
+illum 2
+Kd 1.00000 1.00000 1.00000
+Ka 0.00000 0.00000 0.00000
+Ks 1.00000 1.00000 1.00000
+Ke 0.00000e+0 0.00000e+0 0.00000e+0
+map_Kd Snow Covered Mountain Range in Northern Montana_ID642_diffuse.tga
+map_Ks Snow Covered Mountain Range in Northern Montana_ID642_gloss.tga
+bump Snow Covered Mountain Range in Northern Montana_ID642_bump.tga
+map_bump Snow Covered Mountain Range in Northern Montana_ID642_normal.tga
+newmtl ID655
+Ns 100.000
+d 1.00000
+illum 2
+Kd 1.00000 1.00000 1.00000
+Ka 0.00000 0.00000 0.00000
+Ks 1.00000 1.00000 1.00000
+Ke 0.00000e+0 0.00000e+0 0.00000e+0
+map_Kd Snow Covered Mountain Range in Northern Montana_ID655_diffuse.tga
+map_Ks Snow Covered Mountain Range in Northern Montana_ID655_gloss.tga
+bump Snow Covered Mountain Range in Northern Montana_ID655_bump.tga
+map_bump Snow Covered Mountain Range in Northern Montana_ID655_normal.tga
+newmtl ID692
+Ns 100.000
+d 1.00000
+illum 2
+Kd 1.00000 1.00000 1.00000
+Ka 0.00000 0.00000 0.00000
+Ks 1.00000 1.00000 1.00000
+Ke 0.00000e+0 0.00000e+0 0.00000e+0
+map_Kd Snow Covered Mountain Range in Northern Montana_ID692_diffuse.tga
+map_Ks Snow Covered Mountain Range in Northern Montana_ID692_gloss.tga
+bump Snow Covered Mountain Range in Northern Montana_ID692_bump.tga
+map_bump Snow Covered Mountain Range in Northern Montana_ID692_normal.tga
+newmtl ID705
+Ns 100.000
+d 1.00000
+illum 2
+Kd 1.00000 1.00000 1.00000
+Ka 0.00000 0.00000 0.00000
+Ks 1.00000 1.00000 1.00000
+Ke 0.00000e+0 0.00000e+0 0.00000e+0
+map_Kd Snow Covered Mountain Range in Northern Montana_ID705_diffuse.tga
+map_Ks Snow Covered Mountain Range in Northern Montana_ID705_gloss.tga
+bump Snow Covered Mountain Range in Northern Montana_ID705_bump.tga
+map_bump Snow Covered Mountain Range in Northern Montana_ID705_normal.tga
+newmtl ID718
+Ns 100.000
+d 1.00000
+illum 2
+Kd 1.00000 1.00000 1.00000
+Ka 0.00000 0.00000 0.00000
+Ks 1.00000 1.00000 1.00000
+Ke 0.00000e+0 0.00000e+0 0.00000e+0
+map_Kd Snow Covered Mountain Range in Northern Montana_ID718_diffuse.tga
+map_Ks Snow Covered Mountain Range in Northern Montana_ID718_gloss.tga
+bump Snow Covered Mountain Range in Northern Montana_ID718_bump.tga
+map_bump Snow Covered Mountain Range in Northern Montana_ID718_normal.tga
+newmtl ID739
+Ns 100.000
+d 1.00000
+illum 2
+Kd 1.00000 1.00000 1.00000
+Ka 0.00000 0.00000 0.00000
+Ks 1.00000 1.00000 1.00000
+Ke 0.00000e+0 0.00000e+0 0.00000e+0
+map_Kd Snow Covered Mountain Range in Northern Montana_ID739_diffuse.tga
+map_Ks Snow Covered Mountain Range in Northern Montana_ID739_gloss.tga
+bump Snow Covered Mountain Range in Northern Montana_ID739_bump.tga
+map_bump Snow Covered Mountain Range in Northern Montana_ID739_normal.tga
+newmtl ID784
+Ns 100.000
+d 1.00000
+illum 2
+Kd 1.00000 1.00000 1.00000
+Ka 0.00000 0.00000 0.00000
+Ks 1.00000 1.00000 1.00000
+Ke 0.00000e+0 0.00000e+0 0.00000e+0
+map_Kd Snow Covered Mountain Range in Northern Montana_ID784_diffuse.tga
+map_Ks Snow Covered Mountain Range in Northern Montana_ID784_gloss.tga
+bump Snow Covered Mountain Range in Northern Montana_ID784_bump.tga
+map_bump Snow Covered Mountain Range in Northern Montana_ID784_normal.tga
+newmtl ID797
+Ns 100.000
+d 1.00000
+illum 2
+Kd 1.00000 1.00000 1.00000
+Ka 0.00000 0.00000 0.00000
+Ks 1.00000 1.00000 1.00000
+Ke 0.00000e+0 0.00000e+0 0.00000e+0
+map_Kd Snow Covered Mountain Range in Northern Montana_ID797_diffuse.tga
+map_Ks Snow Covered Mountain Range in Northern Montana_ID797_gloss.tga
+bump Snow Covered Mountain Range in Northern Montana_ID797_bump.tga
+map_bump Snow Covered Mountain Range in Northern Montana_ID797_normal.tga
+newmtl ID834
+Ns 100.000
+d 1.00000
+illum 2
+Kd 1.00000 1.00000 1.00000
+Ka 0.00000 0.00000 0.00000
+Ks 1.00000 1.00000 1.00000
+Ke 0.00000e+0 0.00000e+0 0.00000e+0
+map_Kd Snow Covered Mountain Range in Northern Montana_ID834_diffuse.tga
+map_Ks Snow Covered Mountain Range in Northern Montana_ID834_gloss.tga
+bump Snow Covered Mountain Range in Northern Montana_ID834_bump.tga
+map_bump Snow Covered Mountain Range in Northern Montana_ID834_normal.tga
+newmtl ID847
+Ns 100.000
+d 1.00000
+illum 2
+Kd 1.00000 1.00000 1.00000
+Ka 0.00000 0.00000 0.00000
+Ks 1.00000 1.00000 1.00000
+Ke 0.00000e+0 0.00000e+0 0.00000e+0
+map_Kd Snow Covered Mountain Range in Northern Montana_ID847_diffuse.tga
+map_Ks Snow Covered Mountain Range in Northern Montana_ID847_gloss.tga
+bump Snow Covered Mountain Range in Northern Montana_ID847_bump.tga
+map_bump Snow Covered Mountain Range in Northern Montana_ID847_normal.tga
+newmtl ID860
+Ns 100.000
+d 1.00000
+illum 2
+Kd 1.00000 1.00000 1.00000
+Ka 0.00000 0.00000 0.00000
+Ks 1.00000 1.00000 1.00000
+Ke 0.00000e+0 0.00000e+0 0.00000e+0
+map_Kd Snow Covered Mountain Range in Northern Montana_ID860_diffuse.tga
+map_Ks Snow Covered Mountain Range in Northern Montana_ID860_gloss.tga
+bump Snow Covered Mountain Range in Northern Montana_ID860_bump.tga
+map_bump Snow Covered Mountain Range in Northern Montana_ID860_normal.tga
+newmtl ID873
+Ns 100.000
+d 1.00000
+illum 2
+Kd 1.00000 1.00000 1.00000
+Ka 0.00000 0.00000 0.00000
+Ks 1.00000 1.00000 1.00000
+Ke 0.00000e+0 0.00000e+0 0.00000e+0
+map_Kd Snow Covered Mountain Range in Northern Montana_ID873_diffuse.tga
+map_Ks Snow Covered Mountain Range in Northern Montana_ID873_gloss.tga
+bump Snow Covered Mountain Range in Northern Montana_ID873_bump.tga
+map_bump Snow Covered Mountain Range in Northern Montana_ID873_normal.tga
+newmtl ID886
+Ns 100.000
+d 1.00000
+illum 2
+Kd 1.00000 1.00000 1.00000
+Ka 0.00000 0.00000 0.00000
+Ks 1.00000 1.00000 1.00000
+Ke 0.00000e+0 0.00000e+0 0.00000e+0
+map_Kd Snow Covered Mountain Range in Northern Montana_ID886_diffuse.tga
+map_Ks Snow Covered Mountain Range in Northern Montana_ID886_gloss.tga
+bump Snow Covered Mountain Range in Northern Montana_ID886_bump.tga
+map_bump Snow Covered Mountain Range in Northern Montana_ID886_normal.tga
+newmtl ID899
+Ns 100.000
+d 1.00000
+illum 2
+Kd 1.00000 1.00000 1.00000
+Ka 0.00000 0.00000 0.00000
+Ks 1.00000 1.00000 1.00000
+Ke 0.00000e+0 0.00000e+0 0.00000e+0
+map_Kd Snow Covered Mountain Range in Northern Montana_ID899_diffuse.tga
+map_Ks Snow Covered Mountain Range in Northern Montana_ID899_gloss.tga
+bump Snow Covered Mountain Range in Northern Montana_ID899_bump.tga
+map_bump Snow Covered Mountain Range in Northern Montana_ID899_normal.tga
+newmtl ID928
+Ns 100.000
+d 1.00000
+illum 2
+Kd 1.00000 1.00000 1.00000
+Ka 0.00000 0.00000 0.00000
+Ks 1.00000 1.00000 1.00000
+Ke 0.00000e+0 0.00000e+0 0.00000e+0
+map_Kd Snow Covered Mountain Range in Northern Montana_ID928_diffuse.tga
+map_Ks Snow Covered Mountain Range in Northern Montana_ID928_gloss.tga
+bump Snow Covered Mountain Range in Northern Montana_ID928_bump.tga
+map_bump Snow Covered Mountain Range in Northern Montana_ID928_normal.tga
+newmtl ID941
+Ns 100.000
+d 1.00000
+illum 2
+Kd 1.00000 1.00000 1.00000
+Ka 0.00000 0.00000 0.00000
+Ks 1.00000 1.00000 1.00000
+Ke 0.00000e+0 0.00000e+0 0.00000e+0
+map_Kd Snow Covered Mountain Range in Northern Montana_ID941_diffuse.tga
+map_Ks Snow Covered Mountain Range in Northern Montana_ID941_gloss.tga
+bump Snow Covered Mountain Range in Northern Montana_ID941_bump.tga
+map_bump Snow Covered Mountain Range in Northern Montana_ID941_normal.tga
+newmtl ID954
+Ns 100.000
+d 1.00000
+illum 2
+Kd 1.00000 1.00000 1.00000
+Ka 0.00000 0.00000 0.00000
+Ks 1.00000 1.00000 1.00000
+Ke 0.00000e+0 0.00000e+0 0.00000e+0
+map_Kd Snow Covered Mountain Range in Northern Montana_ID954_diffuse.tga
+map_Ks Snow Covered Mountain Range in Northern Montana_ID954_gloss.tga
+bump Snow Covered Mountain Range in Northern Montana_ID954_bump.tga
+map_bump Snow Covered Mountain Range in Northern Montana_ID954_normal.tga
+newmtl ID967
+Ns 100.000
+d 1.00000
+illum 2
+Kd 1.00000 1.00000 1.00000
+Ka 0.00000 0.00000 0.00000
+Ks 1.00000 1.00000 1.00000
+Ke 0.00000e+0 0.00000e+0 0.00000e+0
+map_Kd Snow Covered Mountain Range in Northern Montana_ID967_diffuse.tga
+map_Ks Snow Covered Mountain Range in Northern Montana_ID967_gloss.tga
+bump Snow Covered Mountain Range in Northern Montana_ID967_bump.tga
+map_bump Snow Covered Mountain Range in Northern Montana_ID967_normal.tga
+newmtl ID980
+Ns 100.000
+d 1.00000
+illum 2
+Kd 1.00000 1.00000 1.00000
+Ka 0.00000 0.00000 0.00000
+Ks 1.00000 1.00000 1.00000
+Ke 0.00000e+0 0.00000e+0 0.00000e+0
+map_Kd Snow Covered Mountain Range in Northern Montana_ID980_diffuse.tga
+map_Ks Snow Covered Mountain Range in Northern Montana_ID980_gloss.tga
+bump Snow Covered Mountain Range in Northern Montana_ID980_bump.tga
+map_bump Snow Covered Mountain Range in Northern Montana_ID980_normal.tga
+newmtl ID993
+Ns 100.000
+d 1.00000
+illum 2
+Kd 1.00000 1.00000 1.00000
+Ka 0.00000 0.00000 0.00000
+Ks 1.00000 1.00000 1.00000
+Ke 0.00000e+0 0.00000e+0 0.00000e+0
+map_Kd Snow Covered Mountain Range in Northern Montana_ID993_diffuse.tga
+map_Ks Snow Covered Mountain Range in Northern Montana_ID993_gloss.tga
+bump Snow Covered Mountain Range in Northern Montana_ID993_bump.tga
+map_bump Snow Covered Mountain Range in Northern Montana_ID993_normal.tga
+newmtl ID1006
+Ns 100.000
+d 1.00000
+illum 2
+Kd 1.00000 1.00000 1.00000
+Ka 0.00000 0.00000 0.00000
+Ks 1.00000 1.00000 1.00000
+Ke 0.00000e+0 0.00000e+0 0.00000e+0
+map_Kd Snow Covered Mountain Range in Northern Montana_ID1006_diffuse.tga
+map_Ks Snow Covered Mountain Range in Northern Montana_ID1006_gloss.tga
+bump Snow Covered Mountain Range in Northern Montana_ID1006_bump.tga
+map_bump Snow Covered Mountain Range in Northern Montana_ID1006_normal.tga
+newmtl ID1019
+Ns 100.000
+d 1.00000
+illum 2
+Kd 1.00000 1.00000 1.00000
+Ka 0.00000 0.00000 0.00000
+Ks 1.00000 1.00000 1.00000
+Ke 0.00000e+0 0.00000e+0 0.00000e+0
+map_Kd Snow Covered Mountain Range in Northern Montana_ID1019_diffuse.tga
+map_Ks Snow Covered Mountain Range in Northern Montana_ID1019_gloss.tga
+bump Snow Covered Mountain Range in Northern Montana_ID1019_bump.tga
+map_bump Snow Covered Mountain Range in Northern Montana_ID1019_normal.tga
+newmtl ID1032
+Ns 100.000
+d 1.00000
+illum 2
+Kd 1.00000 1.00000 1.00000
+Ka 0.00000 0.00000 0.00000
+Ks 1.00000 1.00000 1.00000
+Ke 0.00000e+0 0.00000e+0 0.00000e+0
+map_Kd Snow Covered Mountain Range in Northern Montana_ID1032_diffuse.tga
+map_Ks Snow Covered Mountain Range in Northern Montana_ID1032_gloss.tga
+bump Snow Covered Mountain Range in Northern Montana_ID1032_bump.tga
+map_bump Snow Covered Mountain Range in Northern Montana_ID1032_normal.tga
+newmtl ID1053
+Ns 100.000
+d 1.00000
+illum 2
+Kd 1.00000 1.00000 1.00000
+Ka 0.00000 0.00000 0.00000
+Ks 1.00000 1.00000 1.00000
+Ke 0.00000e+0 0.00000e+0 0.00000e+0
+map_Kd Snow Covered Mountain Range in Northern Montana_ID1053_diffuse.tga
+map_Ks Snow Covered Mountain Range in Northern Montana_ID1053_gloss.tga
+bump Snow Covered Mountain Range in Northern Montana_ID1053_bump.tga
+map_bump Snow Covered Mountain Range in Northern Montana_ID1053_normal.tga
+newmtl ID1066
+Ns 100.000
+d 1.00000
+illum 2
+Kd 1.00000 1.00000 1.00000
+Ka 0.00000 0.00000 0.00000
+Ks 1.00000 1.00000 1.00000
+Ke 0.00000e+0 0.00000e+0 0.00000e+0
+map_Kd Snow Covered Mountain Range in Northern Montana_ID1066_diffuse.tga
+map_Ks Snow Covered Mountain Range in Northern Montana_ID1066_gloss.tga
+bump Snow Covered Mountain Range in Northern Montana_ID1066_bump.tga
+map_bump Snow Covered Mountain Range in Northern Montana_ID1066_normal.tga
+newmtl ID1143
+Ns 100.000
+d 1.00000
+illum 2
+Kd 1.00000 1.00000 1.00000
+Ka 0.00000 0.00000 0.00000
+Ks 1.00000 1.00000 1.00000
+Ke 0.00000e+0 0.00000e+0 0.00000e+0
+map_Kd Snow Covered Mountain Range in Northern Montana_ID1143_diffuse.tga
+map_Ks Snow Covered Mountain Range in Northern Montana_ID1143_gloss.tga
+bump Snow Covered Mountain Range in Northern Montana_ID1143_bump.tga
+map_bump Snow Covered Mountain Range in Northern Montana_ID1143_normal.tga
+newmtl ID1164
+Ns 100.000
+d 1.00000
+illum 2
+Kd 1.00000 1.00000 1.00000
+Ka 0.00000 0.00000 0.00000
+Ks 1.00000 1.00000 1.00000
+Ke 0.00000e+0 0.00000e+0 0.00000e+0
+map_Kd Snow Covered Mountain Range in Northern Montana_ID1164_diffuse.tga
+map_Ks Snow Covered Mountain Range in Northern Montana_ID1164_gloss.tga
+bump Snow Covered Mountain Range in Northern Montana_ID1164_bump.tga
+map_bump Snow Covered Mountain Range in Northern Montana_ID1164_normal.tga
+newmtl ID1401
+Ns 100.000
+d 1.00000
+illum 2
+Kd 1.00000 1.00000 1.00000
+Ka 0.00000 0.00000 0.00000
+Ks 1.00000 1.00000 1.00000
+Ke 0.00000e+0 0.00000e+0 0.00000e+0
+map_Kd Snow Covered Mountain Range in Northern Montana_ID1401_diffuse.tga
+map_Ks Snow Covered Mountain Range in Northern Montana_ID1401_gloss.tga
+bump Snow Covered Mountain Range in Northern Montana_ID1401_bump.tga
+map_bump Snow Covered Mountain Range in Northern Montana_ID1401_normal.tga
+newmtl ID1414
+Ns 100.000
+d 1.00000
+illum 2
+Kd 1.00000 1.00000 1.00000
+Ka 0.00000 0.00000 0.00000
+Ks 1.00000 1.00000 1.00000
+Ke 0.00000e+0 0.00000e+0 0.00000e+0
+map_Kd Snow Covered Mountain Range in Northern Montana_ID1414_diffuse.tga
+map_Ks Snow Covered Mountain Range in Northern Montana_ID1414_gloss.tga
+bump Snow Covered Mountain Range in Northern Montana_ID1414_bump.tga
+map_bump Snow Covered Mountain Range in Northern Montana_ID1414_normal.tga
+newmtl ID1427
+Ns 100.000
+d 1.00000
+illum 2
+Kd 1.00000 1.00000 1.00000
+Ka 0.00000 0.00000 0.00000
+Ks 1.00000 1.00000 1.00000
+Ke 0.00000e+0 0.00000e+0 0.00000e+0
+map_Kd Snow Covered Mountain Range in Northern Montana_ID1427_diffuse.tga
+map_Ks Snow Covered Mountain Range in Northern Montana_ID1427_gloss.tga
+bump Snow Covered Mountain Range in Northern Montana_ID1427_bump.tga
+map_bump Snow Covered Mountain Range in Northern Montana_ID1427_normal.tga
+newmtl ID1440
+Ns 100.000
+d 1.00000
+illum 2
+Kd 1.00000 1.00000 1.00000
+Ka 0.00000 0.00000 0.00000
+Ks 1.00000 1.00000 1.00000
+Ke 0.00000e+0 0.00000e+0 0.00000e+0
+map_Kd Snow Covered Mountain Range in Northern Montana_ID1440_diffuse.tga
+map_Ks Snow Covered Mountain Range in Northern Montana_ID1440_gloss.tga
+bump Snow Covered Mountain Range in Northern Montana_ID1440_bump.tga
+map_bump Snow Covered Mountain Range in Northern Montana_ID1440_normal.tga
+newmtl ID1517
+Ns 100.000
+d 1.00000
+illum 2
+Kd 1.00000 1.00000 1.00000
+Ka 0.00000 0.00000 0.00000
+Ks 1.00000 1.00000 1.00000
+Ke 0.00000e+0 0.00000e+0 0.00000e+0
+map_Kd Snow Covered Mountain Range in Northern Montana_ID1517_diffuse.tga
+map_Ks Snow Covered Mountain Range in Northern Montana_ID1517_gloss.tga
+bump Snow Covered Mountain Range in Northern Montana_ID1517_bump.tga
+map_bump Snow Covered Mountain Range in Northern Montana_ID1517_normal.tga
+newmtl ID1538
+Ns 100.000
+d 1.00000
+illum 2
+Kd 1.00000 1.00000 1.00000
+Ka 0.00000 0.00000 0.00000
+Ks 1.00000 1.00000 1.00000
+Ke 0.00000e+0 0.00000e+0 0.00000e+0
+map_Kd Snow Covered Mountain Range in Northern Montana_ID1538_diffuse.tga
+map_Ks Snow Covered Mountain Range in Northern Montana_ID1538_gloss.tga
+bump Snow Covered Mountain Range in Northern Montana_ID1538_bump.tga
+map_bump Snow Covered Mountain Range in Northern Montana_ID1538_normal.tga
+newmtl ID1551
+Ns 100.000
+d 1.00000
+illum 2
+Kd 1.00000 1.00000 1.00000
+Ka 0.00000 0.00000 0.00000
+Ks 1.00000 1.00000 1.00000
+Ke 0.00000e+0 0.00000e+0 0.00000e+0
+map_Kd Snow Covered Mountain Range in Northern Montana_ID1551_diffuse.tga
+map_Ks Snow Covered Mountain Range in Northern Montana_ID1551_gloss.tga
+bump Snow Covered Mountain Range in Northern Montana_ID1551_bump.tga
+map_bump Snow Covered Mountain Range in Northern Montana_ID1551_normal.tga
+newmtl ID1564
+Ns 100.000
+d 1.00000
+illum 2
+Kd 1.00000 1.00000 1.00000
+Ka 0.00000 0.00000 0.00000
+Ks 1.00000 1.00000 1.00000
+Ke 0.00000e+0 0.00000e+0 0.00000e+0
+map_Kd Snow Covered Mountain Range in Northern Montana_ID1564_diffuse.tga
+map_Ks Snow Covered Mountain Range in Northern Montana_ID1564_gloss.tga
+bump Snow Covered Mountain Range in Northern Montana_ID1564_bump.tga
+map_bump Snow Covered Mountain Range in Northern Montana_ID1564_normal.tga
+newmtl ID1577
+Ns 100.000
+d 1.00000
+illum 2
+Kd 1.00000 1.00000 1.00000
+Ka 0.00000 0.00000 0.00000
+Ks 1.00000 1.00000 1.00000
+Ke 0.00000e+0 0.00000e+0 0.00000e+0
+map_Kd Snow Covered Mountain Range in Northern Montana_ID1577_diffuse.tga
+map_Ks Snow Covered Mountain Range in Northern Montana_ID1577_gloss.tga
+bump Snow Covered Mountain Range in Northern Montana_ID1577_bump.tga
+map_bump Snow Covered Mountain Range in Northern Montana_ID1577_normal.tga
+newmtl ID1590
+Ns 100.000
+d 1.00000
+illum 2
+Kd 1.00000 1.00000 1.00000
+Ka 0.00000 0.00000 0.00000
+Ks 1.00000 1.00000 1.00000
+Ke 0.00000e+0 0.00000e+0 0.00000e+0
+map_Kd Snow Covered Mountain Range in Northern Montana_ID1590_diffuse.tga
+map_Ks Snow Covered Mountain Range in Northern Montana_ID1590_gloss.tga
+bump Snow Covered Mountain Range in Northern Montana_ID1590_bump.tga
+map_bump Snow Covered Mountain Range in Northern Montana_ID1590_normal.tga
+newmtl ID1603
+Ns 100.000
+d 1.00000
+illum 2
+Kd 1.00000 1.00000 1.00000
+Ka 0.00000 0.00000 0.00000
+Ks 1.00000 1.00000 1.00000
+Ke 0.00000e+0 0.00000e+0 0.00000e+0
+map_Kd Snow Covered Mountain Range in Northern Montana_ID1603_diffuse.tga
+map_Ks Snow Covered Mountain Range in Northern Montana_ID1603_gloss.tga
+bump Snow Covered Mountain Range in Northern Montana_ID1603_bump.tga
+map_bump Snow Covered Mountain Range in Northern Montana_ID1603_normal.tga
+newmtl ID1616
+Ns 100.000
+d 1.00000
+illum 2
+Kd 1.00000 1.00000 1.00000
+Ka 0.00000 0.00000 0.00000
+Ks 1.00000 1.00000 1.00000
+Ke 0.00000e+0 0.00000e+0 0.00000e+0
+map_Kd Snow Covered Mountain Range in Northern Montana_ID1616_diffuse.tga
+map_Ks Snow Covered Mountain Range in Northern Montana_ID1616_gloss.tga
+bump Snow Covered Mountain Range in Northern Montana_ID1616_bump.tga
+map_bump Snow Covered Mountain Range in Northern Montana_ID1616_normal.tga
